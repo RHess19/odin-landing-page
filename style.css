@@ -1,12 +1,72 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
 .header-wrapper, .section-one
 {
     background-color: #1F2937;
+}
+
+.header-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-bar > ul
+{
+    display: flex;
+    gap: 15px;
 }
 
 .site-title
 {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.section-one
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.section-one-left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.information-header
+{
+    text-align: center;
+}
+
+.section-two-tiles-wrapper
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.tile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-three
@@ -36,6 +96,16 @@ button
 {
     background-color: #3882F6;
     border: none;
+    color: #F9FAF8;
+}
+
+.hero-button
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
 }
 
 .cta
