@@ -1,0 +1,58 @@
+.header-wrapper, .section-one
+{
+    background-color: #1F2937;
+}
+
+.site-title
+{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section-three
+{
+    background-color: #E5E7EB;
+}
+
+.hero
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary, .nav-item
+{
+    color: #E5E7EB;
+}
+
+ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+button
+{
+    background-color: #3882F6;
+    border: none;
+}
+
+.cta
+{
+    background-color: #3882F6;
+}
+
+.information-header
+{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.quote
+{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
