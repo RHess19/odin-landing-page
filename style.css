@@ -57,6 +57,11 @@ body
     align-items: flex-start;
 }
 
+.section-one-right > img
+{
+    border-radius: 10px;
+}
+
 .hero
 {
     font-size: 48px;
@@ -83,10 +88,11 @@ body
 .section-two-tiles-wrapper
 {
     display: flex;
+    gap: 30px;
     justify-content: center;
-    gap: 15px;
+    gap: 40px;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-right: 150px;
     padding-left: 150px;
 }
@@ -111,6 +117,11 @@ body
 {
     border: 3px solid #3882F6;
     border-radius: 10px;
+}
+
+.tile-text
+{
+    width: 100px;
 }
 
 .section-three
